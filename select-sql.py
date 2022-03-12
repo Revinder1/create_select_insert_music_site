@@ -5,8 +5,6 @@ engine = sqlalchemy.create_engine('postgresql://postgres:admin@localhost:5432/po
 connection = engine.connect()
 
 
-
-
 album_select = connection.execute("""
     SELECT
         name,

@@ -6,7 +6,8 @@ connection = engine.connect()
 
 musicians = ['Celine dion', 'Linkin Park', 'Fisher', 'Queen', 'Hatebreed', 'Katy Perry', 'Adam Lambert', 'Rammstein']
 genres = ['Rock', 'Classic', 'Pop', 'Metal', 'Electronic']
-albums = [('Courage', 2019), ('One more light', 2018), ('Fish', 2020), ('Made in Heaven', 1995), ('Weight', 2020), ('Smile', 2020), ('Velvet', 2020), ('Rosenrot', 2005)]
+albums = [('Courage', 2019), ('One more light', 2018), ('Fish', 2020), ('Made in Heaven', 1995), ('Weight', 2020), ('Smile', 2020),
+          ('Velvet', 2020), ('Rosenrot', 2005)]
 tracks = [(47, 'My Heart', 150), (48, 'In the end', 115), (49, 'Electro', 120), (50, 'Rhapsody', 150),
           (51, 'Perseverance', 100), (52, 'Call me', 135), (53, 'If i have', 200), (54, 'Du hast', 210)]
 collects = [('New', 2015), ('Future', 2020), ('My Life', 2021), ('Hands up', 2018), ('Love', 2010), ('Who i am', 2021),
